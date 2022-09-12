@@ -12,5 +12,10 @@ public class HelloController {
     public String hello() {
         return "Hello World!!!";
     }
+    
+    @GetMapping("/gen")
+    public String gen() {
+        return "Generation Brasil!";
+    }
 
 }
